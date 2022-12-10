@@ -46,6 +46,7 @@ public class Wizard extends Player{
             MP += 1;
             MPoints += 5;
             super.hp += 5;
+            availableMPoints = MPoints;
        } 
     }
 
