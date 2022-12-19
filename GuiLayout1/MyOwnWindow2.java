@@ -37,7 +37,6 @@ public class MyOwnWindow2 extends JFrame {
        cp.add ( new JButton ( "0" ) );
 
        cp.add ( new JButton ( "#" ) );
-
     }
 
     public static void main ( String args[] ){
@@ -45,7 +44,7 @@ public class MyOwnWindow2 extends JFrame {
        MyOwnWindow2 obj = new MyOwnWindow2 ();
 
        obj.setVisible ( true );
-       
+
     }
 
 }
