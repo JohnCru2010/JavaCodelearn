@@ -45,7 +45,7 @@ public class MyOwnWindow2 extends JFrame {
        MyOwnWindow2 obj = new MyOwnWindow2 ();
 
        obj.setVisible ( true );
-
+       
     }
 
 }
