@@ -14,7 +14,6 @@ public class JCheckBoxPExample extends JFrame{
         FlowLayout fl = new FlowLayout ();
         fl.setHgap ( 1 );
         fl.setVgap ( 7 );
-        fl.setAlignment( LEFT_ALIGNMENT );
         JCheckBox cb1 = new JCheckBox("Monday");
         cb1.setSelected(false);
         JCheckBox cb2 = new JCheckBox("Tuesday");
