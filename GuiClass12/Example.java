@@ -29,7 +29,11 @@ public class Example extends JFrame {
 
     private class ButtonPressedEvent implements ActionListener {
        public void actionPerformed ( ActionEvent e ) {
-          lab.setText("Button pressed");
+         if (lab.getText() == "Button pressed") {
+            lab.setText("");
+         } else {
+            lab.setText("Button pressed");
+         }
        }
     }
 }
