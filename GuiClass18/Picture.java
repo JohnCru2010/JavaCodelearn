@@ -42,11 +42,11 @@ class Picture extends JPanel {
           case "10":
               this.size = 10;
               break;
-            case "20":
-              this.size = 20;
-              break;
-            default: 
+          case "20":
               this.size = 30;
+              break;
+          default: 
+              this.size = 20;
               break;
         }
         repaint();
@@ -60,7 +60,7 @@ class Picture extends JPanel {
 
        g.setColor ( this.color );
 
-       g.setFont (new Font ( "", Font.ITALIC, 20));
+       g.setFont (new Font ( "", Font.ITALIC, this.size));
 
        g.drawString (this.text, 15, 50);
     }
